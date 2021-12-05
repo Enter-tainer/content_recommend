@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "fast-glob": "^3.2.7",
+    "remark": "^14.0.2",
+    "strip-markdown": "^5.0.0",
+    "to-vfile": "^7.2.2"
+  },
+  "type": "module"
+}
