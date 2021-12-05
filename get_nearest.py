@@ -13,8 +13,8 @@ for (i, v) in enumerate(file_list):
   vec_list.append(tmp)
 
 index.build("euclidean")
-target = 214
-res = index.search(vec_list[target], 10)
+target = 5
+res = index.search(vec_list[target], 5)
 print("res for {} :".format(file_list[target]))
 for i in res[1:]:
   print(file_list[i][:-13])
